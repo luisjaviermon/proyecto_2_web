@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title> . . : : L O G I N : : . . </title>
+	<link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+</head>
+<body>
+	<header>
+    <div class="contenedor">
+    	<a href="index.html"><img src="IMG/logo.png" width=20%; ></a>
+        <input type="checkbox" id="menu-bar">
+        <label class="fontawesome-align-justify" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="">Ropa</a>
+                    <a href="">Accesorios</a>
+                    <a href="login.html">Login</a>
+                </nav>
+            </div>
+	</header>
+
+    <br><br><br><br>
+    <div class="container">
+        <div class="row justify-content-center"> <!--Prueba eliminar: justify-content-center-->
+            <div class="col-6 text-justify"> <!--De las 12 columnas de ley, le digo entre cuanto dividirlas: 12/6-->  <!--Prueba elim: text-justify para que no esté justificado, solo las columnas-->
+                    <h1 sign align="center">Datos</h1><br><br><br>
+            	    <form action="BACK/login.php" method="POST">
+            		Usuario: 
+            		<input type="text" name="user"><br><br>
+            		Password:
+            		<input type="password" name="password"><br><br>
+            		<input type="submit" name="envia" value="Ingresar"><br><br><br>
+            	</form>
+            	<a href="registro.html"> ¿No tienes cuenta aún? Registrate</a><br><br><br>
+            </div>
+        </div>
+    </div>
+        
+        <footer>
+            <div class="contenedor info">
+                <p class="copy">prebeStore &copy; 2018</p>
+                <div class="sociales">
+                    <a class="fontawesome-facebook-sign" href="#"></a>
+                    <a class="fontawesome-twitter" href="#"></a>
+                    <a class="fontawesome-camera-retro" href="#"></a>
+                    <a class="fontawesome-google-plus-sign" href="#"></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
